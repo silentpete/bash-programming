@@ -1,6 +1,8 @@
 #!/bin/bash
 
-if [[ ! -z "${DEV}" ]]; then
+if [[ -z "${DEV}" ]]; then
+  echo 'DEV env var is not set'
+else
   echo 'DEV env var is set'
 fi
 
