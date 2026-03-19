@@ -26,7 +26,7 @@ function error_msg () {
 
 default_gopath="$HOME/gocode"
 default_gotmpdir="$HOME/gotmpdir"
-goVersion="1.16.2"
+goVersion="1.23.1"
 goDir="go${goVersion}"
 
 # Set working directory
